@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-03T05:37:01Z" name="Suite" finished-at="2022-11-03T05:37:54Z" duration-ms="52866">
+    <groups>
+    </groups>
+    <test started-at="2022-11-03T05:37:01Z" name="Test" finished-at="2022-11-03T05:37:54Z" duration-ms="52866">
+      <class name="learning_Oct28.DataProviderExercise">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:learning_Oct28.DataProviderExercise@33c911a1]" started-at="2022-11-02T22:37:01Z" name="launchApp" finished-at="2022-11-02T22:37:04Z" duration-ms="3377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyLoginWithInValidUserDetails(java.lang.String, java.lang.String)[pri:1, instance:learning_Oct28.DataProviderExercise@33c911a1]" started-at="2022-11-02T22:37:04Z" name="verifyLoginWithInValidUserDetails" data-provider="testData" finished-at="2022-11-02T22:37:16Z" duration-ms="11501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ashwini@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidUserDetails -->
+        <test-method signature="verifyLoginWithInValidUserDetails(java.lang.String, java.lang.String)[pri:1, instance:learning_Oct28.DataProviderExercise@33c911a1]" started-at="2022-11-02T22:37:16Z" name="verifyLoginWithInValidUserDetails" data-provider="testData" finished-at="2022-11-02T22:37:27Z" duration-ms="11015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deepika@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23129900]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidUserDetails -->
+        <test-method signature="verifyLoginWithInValidUserDetails(java.lang.String, java.lang.String)[pri:1, instance:learning_Oct28.DataProviderExercise@33c911a1]" started-at="2022-11-02T22:37:27Z" name="verifyLoginWithInValidUserDetails" data-provider="testData" finished-at="2022-11-02T22:37:38Z" duration-ms="10832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[neha@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[welcome@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidUserDetails -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:learning_Oct28.DataProviderExercise@33c911a1]" started-at="2022-11-02T22:37:38Z" name="closeApp" finished-at="2022-11-02T22:37:54Z" duration-ms="16132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- learning_Oct28.DataProviderExercise -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
